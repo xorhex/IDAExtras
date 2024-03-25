@@ -2,7 +2,7 @@
 
 IDA extras is a (growing) collection of IDA UI and other enhancements to overcome some challenges when using IDA.  If it possible to do these things natively in IDA, please let me know.
 
-## Install
+## How To Install?
 
 Drop idaextras directory and IDAExtras.py into IDA's plugin directory.
 
