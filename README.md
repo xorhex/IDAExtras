@@ -4,7 +4,7 @@ IDA extras is a (growing) collection of IDA UI and other enhancements to overcom
 
 ## Install
 
-Drop idaextras and IDAExtras.py into IDA's plugin directory.
+Drop idaextras directory and IDAExtras.py into IDA's plugin directory.
 
 ## What Are These Enhancements?
 
