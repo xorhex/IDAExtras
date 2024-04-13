@@ -2,18 +2,26 @@
 
 IDA extras is a (growing) collection of IDA UI and other enhancements to overcome some challenges when using IDA.  If it possible to do these things natively in IDA, please let me know.
 
+## How To Install?
+
+Drop idaextras directory and IDAExtras.py into IDA's plugin directory.
+
 ## What Are These Enhancements?
 
-## 1. Exports
+### 1. Exports
+
 `IDA Extras: Exports` renders another tab similar to the default Exports tab but will provide additional detail about the exports.  This interface came about due to wanting a quick way to find exports of interest when dealing with many exports where a number of them are just retn statements.  There is even an `AutoFilter` option to remove all of the ones with `retn` mnemonic or where the `Is Code` flag is `False`.
 
 ![](./documentation/IDAExtrasExports.png)
 
 **Video**
 
-![](./documentation/IDAExtrasEports.mp4)
+[IDAExtrasExports.webm](https://github.com/xorhex/IDAExtras/assets/40742023/7ad9dc0c-976b-4b35-9310-9c7188f8e19d)
+
+The export screen is started in the video using the shortcut key.  The menu item was not clicked; just shown.
 
 ### 2. Copy Bytes
+
 `Copy Bytes` works in both the dissembler view and the hex view.  This enchancement copies the bytes selected on the screen.  It's not perfect, but it gets the job done.
 
 The build-in IDA shortcut is `Shift-E` which gives the user more options but sometimes it's nice to have a quick copy bytes in the right click menu.
@@ -26,10 +34,13 @@ Caveat 3: When copying bytes in the hex viewer, the start and stop positions are
 
 **Video: Dissassembler View**
 
-![](./documentation/CopyBytes_DissassemblerView.webm)
+[CopyBytes_DissassemblerView.webm](https://github.com/xorhex/IDAExtras/assets/40742023/fa330440-197a-46a1-9df5-a16216f32ede)
+
+https://github.com/xorhex/IDAExtras/assets/40742023/e0a652bc-28ce-4d81-a6f9-da779c0dc4eb
 
 **Video: Hex Viewer**
-![](./documentation/CopyBytes_DissassemblerView.webm)
+
+https://github.com/xorhex/IDAExtras/assets/40742023/fd186a49-ad25-410f-8cdc-615e3379d6dc
 
 ### 3. sockaddr_in.sin_addr and sockaddr_in.sin_port
 
